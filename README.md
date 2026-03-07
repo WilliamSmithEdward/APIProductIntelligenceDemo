@@ -46,7 +46,7 @@ End Sub
 
 ## How to use
 
-- Open APIProductIntelligenceDemo.xlsm
+- Open API_Product_Intelligence_Model.xlsm
 - Enable macros if prompted
 - Click "Refresh Live API Data" to query the product data API in real-time
 - Select a category and product
