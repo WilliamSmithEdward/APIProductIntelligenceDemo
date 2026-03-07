@@ -11,6 +11,9 @@ This repository demonstrates the real power of the [ModernJsonInVBA VBA library]
 - Creates a second relational table for all reviews
 - Displays a simple dashboard sheet with dropdowns to browse products, see details, ratings, stock, and recent reviews
 
+\
+![Alt text](images/dashboard_snapshot.png)
+
 ## Key Macros
 ```vba
 Sub QueryProducts()
