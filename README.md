@@ -2,7 +2,7 @@
 
 This repository demonstrates the real power of the [ModernJsonInVBA VBA library](https://github.com/WilliamSmithEdward/ModernJsonInVBA) through a practical Excel + VBA case study. It shows how to quickly turn a public JSON API into a clean, interactive product dashboard with minimal VBA code complexity. This VBA library is approachable for any data analyst or Excel enthusiast, and allows you to rapidly prototype sophisicated data models & workflows.
 
-## What the demo does
+## What the Demo Does
 
 - Fetches live product catalog from https://dummyjson.com/products
 - Loads the full list into a refreshable Excel Table (ListObject) in one function call
@@ -27,7 +27,7 @@ Sub ExtractProductReviews()
 End Sub
 ```
 
-## Why this shows the power of ModernJsonInVBA
+## Why This Shows the Power of ModernJsonInVBA
 
 - Complex nested JSON becomes flat, relational Excel tables with minimal code
 - Schema changes (new fields) are handled automatically — columns appear without breaking layouts
@@ -36,7 +36,7 @@ End Sub
 - Fast enough for real dashboards and scheduled refreshes
 - Clean upsert behavior: update existing rows, add missing columns, preserve order
 
-## Features highlighted
+## Features Highlighted
 
 - Direct JSON → ListObject conversion
 - Nested array flattening with parent-child relationships
@@ -44,12 +44,13 @@ End Sub
 - UI freeze prevention during processing
 - Error handling that actually helps debugging
 
-## How to use
+## How to Use
 
 - Open API_Product_Intelligence_Model.xlsm
 - Enable macros if prompted
 - Click "Refresh Live API Data" to query the product data API in real-time
 - Select a category and product
+- Optional: Open the VBA editor (Developer tab, or ALT+F11) and explore the VBA code
 
 ## Summary
 
