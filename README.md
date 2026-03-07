@@ -1,6 +1,9 @@
 # API Product Intelligence Demo
 
-This repository demonstrates the real power of the [ModernJsonInVBA VBA library](https://github.com/WilliamSmithEdward/ModernJsonInVBA) through a practical Excel + VBA case study. It shows how to quickly turn a public JSON API into a clean, interactive product dashboard with minimal VBA code complexity. This VBA library is approachable for any data analyst or Excel enthusiast, and allows you to rapidly prototype sophisicated data models & workflows.
+This repository demonstrates the real power of the [ModernJsonInVBA](https://github.com/WilliamSmithEdward/ModernJsonInVBA) VBA library through a practical Excel + VBA case study. It shows how to quickly turn a public JSON API into a clean, interactive product dashboard with minimal VBA code complexity. This VBA library is approachable for any data analyst or Excel enthusiast, and allows you to rapidly prototype sophisicated data models & workflows.
+
+\
+![Alt text](images/dashboard_snapshot.png)
 
 ## What the Demo Does
 
