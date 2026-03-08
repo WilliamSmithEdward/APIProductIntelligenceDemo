@@ -21,7 +21,7 @@ This repository demonstrates the real power of the [ModernJsonInVBA](https://git
 - No external libraries or COM objects required
 - Works on Windows and Mac
 - Fast enough for real dashboards and scheduled refreshes
-- Clean upsert behavior: update existing rows, add missing columns, preserve order
+- Clean upsert behavior: refresh or append rows, optionally add missing columns, preserve order
 
 ## Features Highlighted
 
