@@ -14,22 +14,6 @@ This repository demonstrates the real power of the [ModernJsonInVBA](https://git
 - Creates a second relational table for all reviews
 - Displays a simple dashboard sheet with dropdowns to browse products, see details, ratings, stock, and recent reviews
 
-## Key Macros
-```vba
-Sub QueryProducts()
-    ' One call to fetch and upsert products into a table
-    Excel_UpsertListObjectFromJsonAtRoot ...
-End Sub
-
-Sub ExtractProductReviews()
-    ' Loop over products, parse nested reviews, inject parentId, upsert to child table
-    For Each rw In productTable.ListRows
-        ...
-        Excel_UpsertListObjectFromJsonAtRoot ...
-    Next
-End Sub
-```
-
 ## Why This Shows the Power of ModernJsonInVBA
 
 - Complex nested JSON becomes flat, relational Excel tables with minimal code
